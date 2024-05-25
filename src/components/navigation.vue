@@ -7,7 +7,7 @@
          'menu-none':!toggle,
            
        }" :key="index">
-        <RouterLink :to="`${lin.link}`" class="mx-3 text-3xl font-bold hover:text-gray-400">{{
+        <RouterLink :to="`${lin.link}`" class="mx-3 text-2xl font-bold hover:text-gray-400">{{
           lin.home
         }}</RouterLink>
       </div>
