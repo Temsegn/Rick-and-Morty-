@@ -58,7 +58,7 @@
       <h1 class="block text-2xl my-6 ">Get the design and the source code</h1>
   
        <a href="https://github.com/Temsegn/Rick-and-morty-website" class="hover:text-blue-500 hover:underline  justify-center text-3xl gap-12 font-bold my-12 ">Github</a>
-       <a href="" class="hover:text-blue-500 hover:underline mx-12 justify-center text-3xl gap-12 font-bold my-12">Figma</a>
+       <a href="https://www.figma.com/design/5lrXCgbwuuW8GWDOSH0u0C/Rick-and-Morty-show?node-id=2-2&t=6t3nXVEdLvQb9Mc7-0" class="hover:text-blue-500 hover:underline mx-12 justify-center text-3xl gap-12 font-bold my-12">Figma</a>
   
     </div>
   </div>
