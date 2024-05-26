@@ -1,38 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
 
 .toggler {
+  display: none;
+}
+@media (max-width: 800px) {
+  .menu-none {
     display: none;
+    transition: all 1s ease-in-out;
   }
-  @media (max-width: 800px) {
-    .menu-none {
-      display:none;
-      transition: all 1s ease-in-out;
-    
-    }
-    .toggler {
-      display: block;
-      transition: all 1s ease-in-out;
-
-    }
-    .menu-active
-    {
-        display:block;
-        height: 60px;
-      }
-     .menu{
-         display: block;
-         position: absolute;
-         top: 80px;
-         background-color: rgba(5, 4, 4, 0.653);
-         width: 100%;
-         right: 0;
-         left: 0;
-         padding-left: 10px;
-         transition: all 1s ease-in-out;
-         
-     }
-     
+  .toggler {
+    display: block;
+    transition: all 1s ease-in-out;
   }
+  .menu-active {
+    display: block;
+    height: 80px;
+  }
+  .menu {
+    display: block;
+    position: absolute;
+    top: 80px;
+    background-color: rgba(7, 5, 5, 0.653);
+    width: 100%;
+    right: 0;
+    left: 0;
+    padding-left: 10px;
+    transition: all 1s ease-in-out;
+    z-index: 100;
+   }
+}
