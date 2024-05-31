@@ -44,7 +44,7 @@
     </div>
   </div>
 
-  <div class="flex justify-around py-6 ">
+  <div class="flex justify-around py-6 mt-10">
     <button @click="decrementCount" class="bg-white hover:bg-gray-400 text-gray-800 text-lg font-bold rounded-full w-14 h-14 text-center">prev</button>
     <button class="bg-gray-900 hover:bg-gray-800 text-gray-400 font-bold w-24 rounded-lg h-14 p-1 text-center">page-{{ page }}</button>
     <button @click="incrementCount" class="bg-white hover:bg-gray-400 text-gray-800 text-lg font-bold rounded-full w-14 h-14 text-center">next</button>

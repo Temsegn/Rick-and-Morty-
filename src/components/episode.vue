@@ -36,7 +36,7 @@
       </RouterLink>
        
     </div>
-    <div class="flex justify-around py-6  ">
+    <div class="flex justify-around py-6  mt-10 ">
       <button @click="decrementCount" 
       class="bg-white hover:bg-gray-400  text-gray-800 text-lg font-bold rounded-full w-14 h-14  text-center"      >
       prev 
