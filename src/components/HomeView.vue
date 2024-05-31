@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-10">
+  <div class="mt-20">
     <carousel :slides="slides"> </carousel>
 
     <div class="container mx-auto mt-36 px-6 py-3">
