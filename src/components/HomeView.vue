@@ -165,6 +165,9 @@
       </div>
     </div>
   </div>
+  <character/>
+  <episode/>
+  <location/>
 
   <div class="text-center my-6">
     <h1 class="block text-2xl my-6">Get the design and the source code</h1>
@@ -175,7 +178,7 @@
       >Github</a
     >
     <a
-      href=""
+      href="https://www.figma.com/design/5lrXCgbwuuW8GWDOSH0u0C/Rick-and-Morty-show?node-id=2-2&t=Eud5UBIjgpiwIsNc-0"
       class="hover:text-blue-500 hover:underline mx-12 justify-center text-3xl gap-12 font-bold my-12"
       >Figma</a
     >
@@ -183,10 +186,13 @@
 </template>
 
 <script>
-import carousel from '../components/carousel.vue'
+import carousel from '../components/carousel.vue';
+import character from '../components/character.vue';
+import episode from '../components/episode.vue';
+import location from '../components/location.vue';
 export default {
   name: 'homeView',
-  components: { carousel },
+  components: { carousel,character,episode,location },
   data() {
     return {
       slides: [

@@ -49,12 +49,7 @@
     <button class="bg-gray-900 hover:bg-gray-800 text-gray-400 font-bold w-24 rounded-lg h-14 p-1 text-center">page-{{ page }}</button>
     <button @click="incrementCount" class="bg-white hover:bg-gray-400 text-gray-800 text-lg font-bold rounded-full w-14 h-14 text-center">next</button>
   </div>
-
-  <div class="text-center my-6">
-    <h1 class="block text-2xl my-6 ">Get the design and the source code</h1>
-    <a href="https://github.com/Temsegn/Rick-and-morty-website" class="hover:text-blue-500 hover:underline justify-center text-3xl gap-12 font-bold my-12 ">Github</a>
-    <a href="https://www.figma.com/design/5lrXCgbwuuW8GWDOSH0u0C/Rick-and-Morty-show?node-id=2-2&t=6t3nXVEdLvQb9Mc7-0" class="hover:text-blue-500 hover:underline mx-12 justify-center text-3xl gap-12 font-bold my-12">Figma  </a>
-  </div>
+ 
 </template>
 
 <script>
